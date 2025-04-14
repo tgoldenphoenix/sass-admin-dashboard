@@ -6,3 +6,15 @@ html {
   font-size: var(--base-font-size);
   // font-size: $base-font-size;
 }
+
+body {
+  font-family: var(--body-font-family);
+  width: 100%;
+  min-height: 100%;
+  background-color: var(--global-bg-clr);
+  color: var(--global-text-clr); 
+  font-weight: var(--font-weight-regular);
+  line-height: var(--default-line-height);
+  overflow-x: hidden;
+  font-size: var(--paragraph-size);
+}
