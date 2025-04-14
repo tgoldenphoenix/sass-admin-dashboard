@@ -1,0 +1,8 @@
+@use "../abstracts/variables" as *;
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: var(--base-font-size);
+  // font-size: $base-font-size;
+}
