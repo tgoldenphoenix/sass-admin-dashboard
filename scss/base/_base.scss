@@ -18,3 +18,16 @@ body {
   overflow-x: hidden;
   font-size: var(--paragraph-size);
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+a,
+i,
+span {
+  display: inline-block;
+}

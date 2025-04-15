@@ -192,6 +192,16 @@ $e-colors: (
   --font-weight-regular: 400;
   --font-weight-medium: 500;
   --font-weight-bold: 700;
-}// do NOT add a semi-colon here, invalid CSS syntax
 
-$base-font-size: 62.5%;
+
+  /* ************** SPACING ************** */
+  --spacing-0: 0;
+  --spacing-xs: 0.8rem;//extra small
+  --spacing-sm: 1rem;
+  --spacing-md: 1.2rem;
+  --spacing-lg: 1.4rem;
+  --spacing-xl: 1.6rem;
+  --spacing-18: 1.8rem;
+  --spacing-20: 2rem;
+
+}// do NOT add a semi-colon here, invalid CSS syntax
