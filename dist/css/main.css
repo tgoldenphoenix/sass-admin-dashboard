@@ -132,8 +132,15 @@
   --spacing-xl: 1.6rem;
   --spacing-18: 1.8rem;
   --spacing-20: 2rem;
+  /* ************** LAYOUT ************** */
+  --container-default: 90%;
+  --container-sm: 87.5rem;
+  --container-md: 121.5rem;
+  --container-lg: 131.5rem;
+  --container-xl: 156rem;
 }
 
+/* ************** LAYOUT ************** */
 /*
 =================================================
                     CSS RESET

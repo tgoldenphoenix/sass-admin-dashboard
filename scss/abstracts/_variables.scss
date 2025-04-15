@@ -204,4 +204,35 @@ $e-colors: (
   --spacing-18: 1.8rem;
   --spacing-20: 2rem;
 
+  /* ************** LAYOUT ************** */
+  --container-default: 90%;
+  --container-sm: 87.5rem;// 875 px
+  --container-md: 121.5rem;// 1215 px
+  --container-lg: 131.5rem;
+  --container-xl: 156rem;
+
 }// do NOT add a semi-colon here, invalid CSS syntax
+
+/* ************** LAYOUT ************** */
+$breakpoint-sm: 553px;
+$breakpoint-md: 901px;
+$breakpoint-lg: 1281px;
+$breakpoint-xl: 1440px;
+
+// Breakpoint map
+$breakpoints-up: (
+  sm: $breakpoint-sm,
+  md: $breakpoint-md,
+  lg: $breakpoint-lg,
+  xl: $breakpoint-xl,
+);
+
+$default-gutter: 1.5rem;
+$total-cols: 12;// can change to 16, 18 cols
+
+$containers: (
+  sm: var(--container-sm),
+  md: var(--container-md),
+  lg: var(--container-lg),
+  xl: var(--container-xl),
+);
