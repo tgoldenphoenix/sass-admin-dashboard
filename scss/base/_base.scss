@@ -1,4 +1,5 @@
 @use "../abstracts/variables" as *;
+@use "../layout/breakpoints" as *;
 
 html {
   box-sizing: border-box;
