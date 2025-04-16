@@ -1,5 +1,6 @@
 // Abstracts
 @forward "../abstracts/variables";
+@forward "../abstracts/mixins";
 
 // Base
 @forward "../base/normalize";
@@ -8,3 +9,4 @@
 
 // Layout
 @forward "../layout/breakpoints";
+@forward "../layout/grid";
