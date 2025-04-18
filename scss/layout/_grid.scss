@@ -37,6 +37,8 @@
     padding-left: $default-gutter;
   }
 
+  // .e-row .e-flex {} descendant selector
+  // targets all `flex` elements that are nested anywhere inside `row` elements
   @for $i from 1 through $total-cols {
     .e-flex-#{$i} {
       @include grid($total-cols, $i);
@@ -53,3 +55,8 @@
     }
   }
 }
+
+// Offset columns - Non-responsive
+@include offset-grid($total-cols, false);
+// Offset columns - Responsive
+@include offset-grid($total-cols, true);

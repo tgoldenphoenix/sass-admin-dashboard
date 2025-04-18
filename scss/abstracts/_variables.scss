@@ -214,10 +214,10 @@ $e-colors: (
 }// do NOT add a semi-colon here, invalid CSS syntax
 
 /* ************** LAYOUT ************** */
-$breakpoint-sm: 553px;
+$breakpoint-sm: 553px;// small
 $breakpoint-md: 901px;
 $breakpoint-lg: 1281px;
-$breakpoint-xl: 1440px;
+$breakpoint-xl: 1440px;// Extra-large
 
 // Breakpoint map
 $breakpoints-up: (

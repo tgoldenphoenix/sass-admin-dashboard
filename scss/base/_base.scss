@@ -1,6 +1,8 @@
 @use "../abstracts/variables" as *;
 @use "../layout/breakpoints" as *;
 
+/* ************** BASE ************** */
+
 html {
   box-sizing: border-box;
   height: 100%;
